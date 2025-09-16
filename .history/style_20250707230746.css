@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('../fonts/Canela-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #090f1d;
+    color: #fffffd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Canela', serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+.header {}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    
+}
+
+.nav-item {}
+
+.nav-link {}
+
+.header-contact-btn {}

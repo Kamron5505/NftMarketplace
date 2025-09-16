@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #090f1d;
+    color: #fffffd;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Source Sans Pro", sans-serif;
+    --third-family: "Lora", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+.highlight {
+    color: #d6ef0e;
+}
+
+.header {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 253, 0.72);
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #d6ef0e;
+    width: 94px;
+    height: 26px;
+    transition: all 0.3s ease;
+}
+
+.header-contact-btn {
+    background: #d6ef0e;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 143px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.nft-section {
+    margin-top: 100px;
+}
+
+.nft-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 544px;
+    line-height: 160%;
+    color: #fffffd;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    line-height: 120%;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 178px;
+    height: 52px;
+    background: #d6ef0e;
+}
+
+.stats {
+    display: flex;
+    gap: 90px;
+    margin-top: 70px;
+    color: white;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-right: 25px;
+}
+
+.stat::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    background-color: #ccff00;
+}
+
+.stat:last-child {
+    padding-right: 24px;
+}
+
+.number {
+    font-family: ;
+    font-size: 48px;
+    font-weight: bold;
+    color: #d6ef0e;
+}
+
+.note {
+    font-weight: normal;
+    color: white;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-image {
+    position: absolute;
+    right: 355px;
+    top: 240px;
+    animation: spin 20s linear infinite;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: white;
+}
+
+.header-image {
+    position: relative;
+}
+
+.circle-image {
+    position: absolute;
+    right: 355px;
+    top: 240px;
+}
+
+.nft-card {
+    position: absolute;
+    top: 660px;
+    right: 170px;
+    border-top: 1px solid #d6ef0e;
+    border-radius: 16px;
+    padding: 20px;
+    width: 304px;
+    height: 169px;
+    box-shadow: 0 9px 50px 0 rgba(23, 36, 65, 0.04);
+    background: #131e3a;
+}
+
+.nft-card__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+
+}
+
+.nft-card__timer,
+.nft-card__bid {
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #d6ef0e;
+}
+
+.nft-card__note {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+.nft-card__btn {
+    border: 1px solid #d6ef0e;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 264px;
+    background: transparent;
+    height: 52px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #d6ef0e;
+}
+
+.art-section {
+    margin-top: 150px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.art-section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text-highlight {
+    color: #d6ef0e;
+
+}
+
+.art-section__btn-view-all {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 134px;
+    height: 52px;
+    background: #d6ef0e;
+    border: none;
+}
+
+.art-section__cards {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.art-card-price-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.art-card {
+    border-top: 1px solid #d6ef0e;
+    border-radius: 28px;
+    padding: 20px;
+    width: 410px;
+    height: 498px;
+    background: #131e3a;
+}
+
+.art-card__time__ending {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #838382;
+}
+
+.art-card__time-value {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* или 0, если без отступа */
+}
+
+.art-card__time-value span {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fffffd;
+}
+
+.art-card__time-row {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.art-card__time-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.art-card__time__ending {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 4px;
+}
+
+.art-card__time-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.art-card__btn-bid {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border: 1px solid #d6ef0e;
+    text-align: center;
+    display: flex;
+    color: #d6ef0e;
+    background: transparent;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.art-card__btn-bid {
+    /* уже есть */
+    display: flex;
+    align-items: center;
+    /* вертикальное выравнивание */
+    justify-content: center;
+    /* горизонтальное выравнивание */
+    white-space: nowrap;
+    /* запрещает перенос строки */
+}
+
+
+.art-card__btn-bid:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+.art-card__btn-bid {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background: #d6ef0e;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.art-card__btn-bid:hover {
+    background: #c4dd00;
+}
+
+
+.art-card-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 23px;
+
+}
+
+.art-card__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+.art-card__info {}
+
+.art-card__time {}
+
+
+.art-card__price {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+.art-card__btn-bid {
+    font-family: "Inter", sans-serif;
+    border: 1px solid #d6ef0e;
+    background: transparent;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 168px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #d6ef0e;
+}
+
+.nft-creator {
+    margin-top: 150px;
+}
+
+
+.nft-creator-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.nft-card__gallery-wrapper {
+    display: grid;
+    grid-template-columns: 300px 520px 410px;
+    grid-template-rows: 311px 311px;
+    grid-template-areas:
+        "price kitchen free"
+        "social choose free";
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.nft-card__gallery {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #131e3a;
+}
+
+.nft-card__gallery img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+/* Индивидуальные элементы с позициями */
+.gallery--price {
+    grid-area: price;
+    width: 300px;
+    height: 311px;
+}
+
+.gallery--kitchen {
+    grid-area: kitchen;
+    width: 520px;
+    height: 311px;
+}
+
+.gallery--choose {
+    grid-area: choose;
+    width: 410px;
+    height: 311px;
+    justify-self: end;
+    /* или start, center */
+}
+
+
+.gallery--free {
+    grid-area: free;
+    width: 410px;
+    height: 652px;
+}
+
+.gallery--social {
+    grid-area: social;
+    width: 410px;
+    height: 311px;
+}
+
+.gallery--choose {
+    grid-area: choose;
+    width: 410px;
+    height: 311px;
+}
+
+
+
+.subscribe h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.subscribe-form input[type="email"] {
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 516px;
+    height: 60px;
+    background: #131e3a;
+    position
+    top: 30px;
+
+}
+
+button,
+input {
+    border: none;
+}
+
+.header-contact-btn:hover {
+    background-color: #0056b3;
+}

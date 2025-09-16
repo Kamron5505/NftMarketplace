@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('../fonts/Canela-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Source Sans Pro", sans-serif;
+    --third-family: "Canela", serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body{
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    padding: 0 40px;
+    /* отступы от краёв */
+}

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('../fonts/Canela-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #090f1d;
+    color: #fffffd;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Source Sans Pro", sans-serif;
+    --third-family: "Canela", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Canela', serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Source Sans Pro", sans-serif;
+    --third-family: "Canela", sans-serif;
+}
+
+.header {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 253, 0.72);
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #d6ef0e;
+    width: 94px;
+    height: 26px;
+}
+
+.header-contact-btn {}

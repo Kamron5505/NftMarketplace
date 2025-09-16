@@ -1,0 +1,33 @@
+/* Вертикальные линии */
+.grid-lines {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    padding: 0 40px;
+}
+body{
+    background: #090f1d;
+}
+.grid-lines::before {
+    content: '';
+    grid-column: 1 / span 1;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.grid-lines::after {
+    content: '';
+    grid-column: 12 / span 1;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Линии внутри сетки */
+.grid-lines div {
+    background: rgba(255, 255, 255, 0.05);
+}

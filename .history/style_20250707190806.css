@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    /* чтобы не мешать кликам */
+    z-index: 0;
+}
+
+.lines::before,
+.lines::after,
+.lines::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #ccc;
+    /* Цвет линии */
+}
+
+.lines::before {
+    left: 10%;
+}
+
+.lines::after {
+    left: 50%;
+}
+
+.lines::after {
+    left: 90%;
+}

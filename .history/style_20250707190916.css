@@ -1,0 +1,45 @@
+.lines {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Левая линия */
+.lines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    width: 1px;
+    background: #ccc;
+}
+
+/* Центральная линия */
+.lines::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: #ccc;
+}
+
+/* Правая линия */
+.line-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 90%;
+    width: 1px;
+    background: #ccc;
+}
+
+body{
+    background-color: black;
+}

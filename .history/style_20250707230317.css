@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('../fonts/Canela-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background: #090f1d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Canela', serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #fffffd;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}

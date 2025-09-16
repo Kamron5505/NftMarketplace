@@ -1,0 +1,8 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    background: #090f1d;
+    width: 1512px;
+    height: 4678px;
+}

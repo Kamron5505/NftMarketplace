@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: #090f1d;
+    color: white;
+    font-family: var(--font-family);
+    position: relative;
+}
+
+/* Блок с фоновыми вертикальными линиями */
+.grid-lines {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    /* padding как у .grid */
+    right: 40px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.grid-lines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-lines div {
+    width: 1px;
+    background: rgba(255, 255, 255, 0.05);
+    /* тонкий светлый цвет */
+    height: 100%;
+}

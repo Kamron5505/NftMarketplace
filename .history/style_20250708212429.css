@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('../fonts/Canela-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: medium;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #090f1d;
+    color: #fffffd;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+    ---family: "Source Sans Pro", sans-serif;
+    --font-family: "Lora", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lora", sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #fffffd;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Source Sans Pro", sans-serif;
+    --third-family: "Lora", sans-serif;
+}
+
+.highlight {
+    color: #d6ef0e;
+}
+
+.header {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 253, 0.72);
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #d6ef0e;
+    width: 94px;
+    height: 26px;
+    transition: all 0.3s ease;
+}
+
+.header-contact-btn {
+    background: #d6ef0e;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 143px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+}
+
+
+
+.nft-section {
+    margin-top: 100px;
+}
+
+
+.nft-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-left {}
+
+.title {}
+
+.highlight {}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 544px;
+    line-height: 160%;
+    color: #fffffd;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-primary {
+
+    align-items: center;
+    line-height: 120%;
+    display: flex;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 178px;
+    height: 52px;
+    background: #d6ef0e;
+}
+
+.btn-secondary {}
+
+.stats {
+    display: flex;
+    gap: 90px;
+    margin-top: 70px;
+
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    font-family: "Lora", sans-serif;
+    color: #d6ef0e;
+}
+
+.note {
+    color: #fffffd;
+}
+
+.label {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fffffd;
+}
+
+.stats {
+    display: flex;
+    color: white;
+}
+
+.stat {
+    position: relative;
+    padding-right: 25px;
+}
+
+.stats {
+    display: flex;
+    /* padding: 40px 0; */
+}
+
+
+.stat::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    /* вытянуть за padding */
+    bottom: -40px;
+    right: 0;
+    width: 2px;
+    background-color: #ccff00;
+}
+
+
+.stat::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* Вместо height: 100% */
+    right: 0;
+    width: 2px;
+    background-color: #ccff00;
+}
+
+
+.stat:last-child {
+    padding-right: 24px;
+}
+
+.number {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.note {
+    font-weight: normal;
+    color: white;
+}
+
+.label {
+    font-size: 18px;
+    color: white;
+}
+
+.content-right {}
+
+.header-image {
+    position: relative;
+}
+
+.hero-image {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+}
+
+.circle-image {
+    position: absolute;
+    right: 300px;
+    top: 240px;
+}
+
+.card {}
+
+.card-info {}
+
+.card-timer {}
+
+.time {}
+
+.card-bid {}
+
+.eth {}
+
+.btn {}
+
+.btn-bid {}
